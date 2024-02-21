@@ -50,3 +50,19 @@ POST {{host}}/auth/login
     "password": "Pass123"
 }
 ```
+
+```js
+200 OK
+```
+
+#### Login Response
+
+```json
+{
+    "id": "d89c2d29a-eb3e-4075-95ff-b920b55aa104",
+    "firstName": "Mikolaj",
+    "lastName": "Kurleto",
+    "email": "test@test.com",
+    "token": "eyJhb...z9dqcnXoY"
+}
+```
